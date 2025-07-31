@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect, useRef } from "react"
-import anime from "animejs"
+import {anime} from "animejs"
 import { useTheme } from "./theme-context"
 
 function fitElementToParent(el: HTMLElement, padding = 0) {
